@@ -22,14 +22,14 @@
       <ul>
         <li>
           <h1>
-            <a href="index.html">
+            <a href="index.php">
               <span class="fa-solid fa-code" aria-hidden="true"></span>
               <span>José Antonio</span>
             </a>
           </h1>
         </li>
         <li><a href="#projects">Projects</a></li>
-        <li><a href="about.html">About</a></li>
+        <li><a href="about.php">About</a></li>
         <li><a href="#contact">Contact</a></li>
         <li>
           <a href="https://www.linkedin.com/in/antoniosotopwr/" target="_blank"
