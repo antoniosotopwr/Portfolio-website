@@ -63,32 +63,28 @@
     <div class="gradient"></div>
     <div class="projects-section">
       <section id="projects">
-        <h2>About José Antonio</h2>
+        <h2>About José Antonio:</h2>
         <article>
           <div class="text">
             <h4>Latest Project</h4>
             <h3>Wall of Wonder</h3>
             <p class="blackbox">
-              Description of the project. This should be fairly concise while
-              also describing the key components that you developed or worked
-              on. It can be as long as you need it to be but should at least be
-              a few sentences long. Be sure to include specific links anywhere
-              in the description. A link looks like
-              <a href="https://frontendmasters.github.io/grid-flexbox-v2/"
-                >this</a
-              >, and multiple links look <a href="#">like this</a> and
-              <a href="#">like this</a>.
+              I'm appasionate about learning, tecnologies and sports.
+              I'm interested in: Web development and design, databases, UX/UI design, 
+              UX Research, web scraping, automation and development with python. 
+              My hobbies are: running, swimming, reading, listen audiobooks and podcasts,
+              chess, boardgames and videogames.
             </p>
-            <h4>Technologies used include:</h4>
+            <h4>Favorite tecnologies:</h4>
             <ul>
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>SVG</li>
+              <li>Python</li>
+              <li>Web design</li>
+              <li>Frontend development</li>
             </ul>
           </div>
           <img class="profile"
             src="img/profile portfolio.png"
-            alt="Screenshot of the Wall of Wonder."
+            alt="profile img"
           />
         </article>
       </section>
