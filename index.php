@@ -56,7 +56,7 @@
           >
         </li>
         <li>
-          <a href="#" target="_blank" class="button">Resume</a>
+          <a href="https://resume.io/r/a6jvvjFpf" target="_blank" class="button">Resume</a>
         </li>
       </ul>
     </nav>
