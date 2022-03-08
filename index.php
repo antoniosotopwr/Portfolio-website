@@ -61,6 +61,7 @@
       </ul>
     </nav>
 
+    
     <section id="intro">
       <p class="name">Hi, my name is <span>José Antonio.</span></p>
       <h2>I design and develop <br />the front end of websites.</h2>
