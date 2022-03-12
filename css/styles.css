@@ -266,4 +266,99 @@ footer ul {
 #about ul{
   margin: 2rem 0 ;
 }
+#projects-title{
+  margin: 10px;
+  font-size: 3rem;
+  text-align: center;
+}
+#flex-projects{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}
 
+.card {
+  position: relative;
+  width: 20rem;
+  height: 17rem;
+  background-image: url(../img/advice.png);
+  background-size: cover;
+  margin: 30px;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+  transition: 0.5s;
+  
+}
+.card:hover {
+  filter: blur(0px);
+  transform: scale(1.1);
+  opacity: 1;
+}
+ .card .circle {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #ffaf00;
+  clip-path: polygon(0% -5%,100% -5%,100% 30%, 0% 30%);
+  text-align: center;
+}
+.card .circle h2 {
+  color: #fff;
+  font-size: 1.5em;
+  
+}
+#tag{
+  color: black;
+  font-weight: bold;
+}
+
+
+.card .content {
+  position: absolute;
+  left: 55px;
+  bottom: 5px;
+  padding: 10px;
+  text-align: center;
+}
+.card .content p {
+  color: #666;
+  padding-bottom: 30px;
+  font-size: 1.1em;
+  
+}
+.card .content ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 0.5rem;
+  font-size: 1.5rem;
+  color: black;
+}
+.card .content li{
+  border-radius: 10px;
+  padding: 5px;
+  font-weight: bold;
+  background-color: black;
+  color: white;
+}
+.card .content a {
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  background: #da2268;
+  color: #fff;
+  border-radius: 40px;
+  text-decoration: none;
+  margin-top: 20px;
+  transition: 0.5s;
+}
+.card .content a:hover {
+  background: #da467e;
+  color: #fff;
+  transform: scale(1.1);
+}
