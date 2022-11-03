@@ -299,13 +299,7 @@ footer ul {
   transition: 0.5s;
 }
 .card-1 {
-  background-image: url(../img/doc1.png);
-}
-.card-2 {
   background-image: url(../img/advice.png);
-}
-.card-3 {
-  background-image: url(../img/landing.png);
 }
 .card:hover {
   filter: blur(0px);
