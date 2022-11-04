@@ -296,7 +296,27 @@ footer ul {
   border-radius: 20px;
   overflow: hidden;
   box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
-  transition: 0.5s;
+  transition: all 0.3s ease-out;
+}
+.card-exp{
+  width: 20rem;
+  height: 18rem;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  background-color: white;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+  color: red;
+  transition: all 0.3s ease-out;
+}
+.tag-span{
+  background-color: #40aa38;
+  border-radius: 20%;
+  padding: 0.3rem;
+  margin: 1rem;
+  color: #171321;
+  font-weight: bold;
+}
+.img-card{
 }
 .card-1 {
   background-image: url(../img/advice.png);
