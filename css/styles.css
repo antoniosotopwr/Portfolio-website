@@ -286,7 +286,10 @@ footer ul {
   align-items: center;
   align-content: center;
 }
-
+.card-container {
+  margin: 1rem;
+  padding: 1rem;
+}
 .card {
   position: relative;
   width: 20rem;
