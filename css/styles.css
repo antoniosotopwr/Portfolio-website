@@ -285,9 +285,10 @@ footer ul {
   justify-content: space-evenly;
   align-items: center;
   align-content: center;
+  padding: 2rem;
 }
-.card-container{
-  padding: 1rem 2rem;
+.card-container {
+  padding: 0 2rem 1rem 1.3rem;
   /* margin: 0.5rem 1rem; */
 }
 .card {
@@ -301,59 +302,64 @@ footer ul {
   box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
   transition: all 0.3s ease-out;
 }
-.card-v2{
-  font-family: 'Rubik', sans-serif;
-  width: 21rem;
+.card-v2 {
+  font-family: "Rubik", sans-serif;
+  width: 21.5rem;
   height: 18rem;
-  text-align: center;
   border-radius: 0.5rem;
   overflow: hidden;
-  background-color: white;
+  background-color: #e8e8ea;
   box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
   color: #333;
   transition: all 0.3s ease-out;
 }
-.tag-span{
+
+.tag-span {
   display: inline-block;
   border-radius: 1rem;
-  padding: 0.2rem 0.4rem 0.2rem 0.4rem; 
+  padding: 0 0.4rem 0.2rem 0.4rem;
   /* margin: 1rem; */
   text-transform: uppercase;
   color: #333;
   font-weight: 500;
   font-size: 0.8rem;
-  
 }
-.tag-html{
+.tag-html {
   background-color: #43b73a;
   /* background-color: rgb(222, 78, 37,0.95); */
 }
-.tag-res{
+.tag-res {
   background-color: #2fc4ba;
 }
-.card-title{
+.card-title {
   font-size: 1.5rem;
   margin-bottom: 0.5rem;
 }
-.img-card{
+.img-card {
   width: 100%;
 }
-.card-list{
+.card-list {
   display: flex;
   text-decoration: none;
   list-style: none;
   align-items: center;
-  justify-content: space-evenly;
-  /* gap:1rem; */
+  gap: 2rem;
   margin: 0;
   padding: 0;
+  padding-top: 0.8rem;
 }
-.card-button{
+.card-button {
   padding: 0.5rem 0.7rem;
   background-color: #da2268;
   color: #fff;
   border-radius: 1rem;
+  transition: all 0.3s linear;
 }
+.card-button:hover{
+  background-color: #d35485;
+  color: #fff;
+}
+
 .card-1 {
   background-image: url(../img/advice.png);
 }
