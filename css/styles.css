@@ -313,11 +313,26 @@ footer ul {
   color: #333;
   transition: all 0.3s ease-out;
 }
+.card-v2:hover {
+  transform: translateY(-1.2rem);
+}
+
+/* .meal {
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+  border-radius: 11px;
+  overflow: hidden;
+  transition: all 0.4s;
+}
+
+.meal:hover {
+  transform: translateY(-1.2rem);
+  box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
+} */
 
 .tag-span {
   display: inline-block;
   border-radius: 1rem;
-  padding: 0 0.4rem 0.2rem 0.4rem;
+  padding: 0.2rem 0.4rem 0.2rem 0.4rem;
   /* margin: 1rem; */
   text-transform: uppercase;
   color: #333;
@@ -353,11 +368,13 @@ footer ul {
   background-color: #da2268;
   color: #fff;
   border-radius: 1rem;
+  text-decoration: none;
   transition: all 0.3s linear;
 }
 .card-button:hover{
   background-color: #d35485;
   color: #fff;
+  cursor: pointer;
 }
 
 .card-1 {
