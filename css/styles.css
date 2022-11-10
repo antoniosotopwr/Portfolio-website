@@ -247,6 +247,7 @@ footer ul {
   grid-template-columns: repeat(3, 1fr);
   justify-items: center;
   align-items: center;
+  line-height: 1.3;
   padding: 2rem 0.5rem; 
   gap: 1rem;
   max-width: 120rem;
@@ -256,13 +257,13 @@ footer ul {
   /* margin: 0.5rem 1rem; */
 }
 .card-container {
-  margin: 1rem;
+  /* margin: 0.5rem; */
   padding: 1rem;
 }
 .card {
   font-family: "Rubik", sans-serif;
   width: 21.5rem;
-  height: 18rem;
+  /* height: 18rem; */
   border-radius: 0.5rem;
   overflow: hidden;
   background-color: #e8e8ea;
@@ -315,7 +316,7 @@ footer ul {
   gap: 2rem;
   margin: 0;
   padding: 0;
-  padding-top: 0.8rem;
+  padding-top: 1.8rem;
 }
 .card-button {
   padding: 0.5rem 0.7rem;
