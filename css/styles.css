@@ -260,6 +260,7 @@ footer ul {
   /* margin: 0.5rem; */
   padding: 1rem;
 }
+
 .card {
   font-family: "Rubik", sans-serif;
   width: 21.5rem;
@@ -269,9 +270,9 @@ footer ul {
   background-color: #e8e8ea;
   box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
   color: #333;
-  transition: all 0.3s ease-out;
+  transition: all 0.3s ease-in-out;
 }
-.card-v2:hover {
+.card:hover {
   transform: translateY(-1.2rem);
 }
 
