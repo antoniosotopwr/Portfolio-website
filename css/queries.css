@@ -38,13 +38,13 @@
     column-gap: 3rem;
     row-gap: 2rem;
   }
-  .card-1{
+  .card-1 {
     justify-self: end;
   }
-  .card-2{
+  .card-2 {
     justify-self: start;
   }
-  .card-3{
+  .card-3 {
     grid-column: 1 / -1;
     justify-self: center;
   }
@@ -52,12 +52,13 @@
 
 /* Desktop first 760px */
 @media (max-width: 47.5em) {
-    .container {
-        grid-template-columns: 1fr;
-        gap: 2rem;
-      }
-      .card-1,.card-2,.card-3{
-        justify-self: center;
-      }
-     
+  .container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  .card-1,
+  .card-2,
+  .card-3 {
+    justify-self: center;
+  }
 }
