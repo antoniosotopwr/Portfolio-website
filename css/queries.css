@@ -31,7 +31,9 @@
   }
 }
 
-/*Desktop-first 1088px */
+/*Desktop-first 1088px 
+this applies only for the cards of projects
+*/
 @media (max-width: 68em) {
   .container {
     grid-template-columns: repeat(2, 1fr);
