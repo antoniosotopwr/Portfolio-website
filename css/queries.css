@@ -64,3 +64,10 @@ this applies only for the cards of projects
     justify-self: center;
   }
 }
+
+/* 512px */
+@media (max-width: 32em) {
+  #contact {
+    width: 20rem;
+  }
+}

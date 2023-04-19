@@ -14,8 +14,8 @@
   --mono: "Oxygen mono", monospace;
   --sans: Oxygen, sans-serif;
   --transition-duration: 0.3s;
-  --transition-easing: cubic-bezier(0.5, 0, 0.5, 1);
-  --animation-duration: 2.3s;
+  --transition-easing: ease-out;
+  --animation-duration: 2s;
 }
 /* border box model: https://css-tricks.com/box-sizing/ */
 html {
@@ -83,6 +83,8 @@ a:hover {
   font-weight: 300;
 }
 .contact-section {
+  padding: 0;
+  margin: 0 auto;
   background-color: var(--plum);
 }
 .projects-section {
@@ -96,10 +98,10 @@ a:hover {
 /* contact section */
 
 #contact {
-  width: 400px;
+  width: 30rem;
   text-align: center;
   margin: 0 auto;
-  padding: 3rem 0;
+  padding: 3rem 1rem;
 }
 
 #contact p:last-child {
@@ -164,9 +166,6 @@ nav [class*="fa-"]:hover {
   background-color: var(--hotmag);
 }
 
-#contact p:last-child {
-  margin-top: 3rem;
-}
 /* footer section */
 footer {
   text-align: center;
