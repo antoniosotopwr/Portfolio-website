@@ -67,6 +67,14 @@ this applies only for the cards of projects
 
 /* 512px */
 @media (max-width: 32em) {
+  .name span,
+  #intro h2 {
+    font-size: 3.2rem;
+  }
+  footer h2{
+    padding: 0 0.5rem;
+  }
+
   #contact {
     width: 20rem;
   }
